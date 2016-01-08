@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Canada&#39;s Web and Mobile Development Bootcamp - Lighthouse Labs</title>
+  
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="Lighthouse Labs is Canada&#39;s top developer bootcamp. Based in Vancouver, we offer full-time Web Development and Mobile (iOS) Development programs.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<!-- Facebook -->
+<meta property='og:url'         content="https://lighthouselabs.ca/?utm_source=Email%20Campaign&amp;utm_medium=Email&amp;utm_campaign=Beacon%20Newsletter&amp;mc_cid=2f19eef734&amp;mc_eid=0a647461f8">
+<meta property="og:image"       content="http://www.lighthouselabs.ca/static-assets/lighthouse-labs.jpg">
+<meta property='og:title'       content='Canada&#39;s Web and Mobile Development Bootcamp - Lighthouse Labs.'>
+<meta property='og:site_name'   content='Lighthouse Labs'>
+<meta property='og:description' content="Lighthouse Labs is Canada&#39;s top developer bootcamp. Based in Vancouver, we offer full-time Web Development and Mobile (iOS) Development programs.">
+
+<!-- Google+ -->
+<meta itemprop="name"           content="Lighthouse Labs">
+<meta itemprop="image"          content="http://www.lighthouselabs.ca/static-assets/lighthouse-labs.jpg">
+<meta itemprop="description"    content="Lighthouse Labs is Canada&#39;s top developer bootcamp. Based in Vancouver, we offer full-time Web Development and Mobile (iOS) Development programs.">
+
+<!-- Twitter -->
+<meta name="twitter:card"       content="summary_large_image">
+<meta name="twitter:site"       content="@lighthouse_labs">
+<meta name="twitter:url"        content="https://lighthouselabs.ca/?utm_source=Email%20Campaign&amp;utm_medium=Email&amp;utm_campaign=Beacon%20Newsletter&amp;mc_cid=2f19eef734&amp;mc_eid=0a647461f8">
+<meta name="twitter:title"      content="Canada&#39;s Web and Mobile Development Bootcamp - Lighthouse Labs">
+<meta name='twitter:image:src'  content='http://www.lighthouselabs.ca/static-assets/lighthouse-labs.jpg'>
+
+  <meta name="viewport" content="width=device-width" />
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/fav-d7cf5b094320b660b64d8ef3595475dbb6b42feaa0127f2eefa5d3622e1b522b.ico" />
+  <!--[if lt IE 9]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+<![endif]-->
+  <link rel="stylesheet" media="all" href="/assets/application-cc8f40b74871fd9e64aaeed33ffff138696bc2156f2ec1c8d642e0bf323631c6.css" data-turbolinks-track="true" />
+  <script src="/assets/application-1a0a46bc373dc8fb58a715bc501a7d13b63412951a024632b439529cf4c5d4be.js" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="ePBK9ZZV/I33mFHf4UiJTJT4WCaWWBIWqbh6VvoasrHP/9WMpU5i3Ac9+3P1f4ypM/fhbtB1QDiMyBA7+EQbcg==" />
+  	<script>
+		var controller;
+		$(document).ready(function() {
+
+	  	$("#owl-carousel").owlCarousel({
+		    navigation : false, // Show next and prev buttons
+		    slideSpeed : 600,
+		    paginationSpeed : 800,
+		    autoPlay: 7000,
+		    singleItem:true
+		  });
+
+		 	var video = $(".autoplay")[0];
+		 	$(".click-me").click(function(){
+		  	video.load();
+				video.autoplay = true;
+				ga('send','event','Play','Hero Video');
+				$(this).siblings('#modal').addClass('open');
+		  });
+		});
+	</script>
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-30299155-2', 'lighthouselabs.ca');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+</script>
+
+  <script>(function() {
+var _fbq = window._fbq || (window._fbq = []);
+if (!_fbq.loaded) {
+var fbds = document.createElement('script');
+fbds.async = true;
+fbds.src = '//connect.facebook.net/en_US/fbds.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(fbds, s);
+_fbq.loaded = true;
+}
+_fbq.push(['addPixelId', '486611734821609']);
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=486611734821609&amp;ev=PixelInitialized" /></noscript>  
+</head>
+
+<body data-no-turbolink class="">
+
+  
+  <header class="home-header">
+  <div class="row">
+      <a class="brand" data-no-turbolink="true" href="/"></a>
+      <nav class="home-nav clearfix">
+        <ul class="links clearfix">
+
+            <li>
+              <a id="locations-nav">
+                Locations
+                <div class="arrow-down"></div>
+              </a>
+            </li>
+            <ul id="locations-dropdown" class="dropdown-menu">
+              <li><a href="/vancouver">Vancouver</a></li>
+              <li><a href="/toronto">Toronto</a></li>
+              <li><a href="/calgary">Calgary</a></li>
+              <!-- <li><a href="/okanagan">Okanagan</a></li> -->
+            </ul> 
+            <li>
+              <a id="programs-nav">
+                Programs
+                <div class="arrow-down"></div>
+              </a>
+            </li>
+            <ul id="programs-dropdown" class="dropdown-menu">
+              <li><a href="/web">Web Development Bootcamp</a></li>
+              <li><a href="/ios">iOS Development Bootcamp</a></li>
+              <li><a href="/intro-to-web">Intro to Web Development</a></li>
+              <li><a href="/intro-to-ios">Intro to iOS Development</a></li>
+            </ul> 
+
+            <li><a href="/#partners">Employers</a></li>
+          <li><a data-no-turbolink="true" href="/team">Team</a></li>
+          <li><a data-no-turbolink="true" href="/faq">FAQ</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><span class="nav-apply"><a href="/apply">Apply Now</a></span></li>
+        </ul>
+      </nav>
+  </div>
+</header>
+<div id="mobile-nav">
+  <div id="mobile-header">
+    <a class="brand" data-no-turbolink="true" href="/"></a>
+    <a id="menu-icon" class="menu-icon" href="#">
+      <img src="/assets/nav-icon-3114ce307072c01012f6b5314ed8022350be5b5424dd07b1325429ee24ba525b.png" alt="Nav icon 3114ce307072c01012f6b5314ed8022350be5b5424dd07b1325429ee24ba525b" />
+    </a>
+  </div>
+  <div id="mobile-contents">
+    <ul>
+        <li><a href="/#program">Programs</a></li>
+        <li><a href="/#communities">Locations</a></li>
+        <li><a href="/#partners">Employers</a></li>
+        <li><a data-no-turbolink="true" href="/team">Team</a></li>
+        <li><a data-no-turbolink="true" href="/faq">FAQ</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/apply">Apply Now</a></li>
+    </ul>
+  </div>
+</div>
+
+
+  
+
+<section id="hero" class="splash">
+
+	<div class="row">
+		<div class="intro">
+			<h1 id="hero-intro">BECOME A WEB OR iOS DEVELOPER</h1>
+			<div class="offset">
+				<p class="subhead">Our website was created by Lighthouse Labs students after 8 weeks of learning on-site!</p>
+				<p class="subhead">See what you will accomplish as a Lighthouse Graduate.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="row large-screens">
+		<div class="video">
+			<a class="click-me" href="/#modal"><img src="/home/play-btn.png" alt="Play btn" /></a>
+			<div id="modal">
+				<div class="modal-content">
+					<video controls="controls" class="autoplay"><source src="/videos/video.ogv" /><source src="/videos/video.mp4" /></video>
+					<div>
+						<a class="close" href="#">X</a>
+					</div>
+				</div>
+				<div class="overlay"></div>
+			</div>
+		</div>
+	</div>
+
+  <div class="row small-screens">
+    <div class="video">
+      <a class="click-me" href="/#modal"><img src="/home/play-btn.png" alt="Play btn" /></a>
+    </div>
+  </div>
+
+	<div class="row medium-screens">
+		<div class="embedded-video">
+			<video controls="controls" class="autoplay" width="640" height="360"><source src="/videos/video.ogv" /><source src="/videos/video.mp4" /></video>
+		</div>
+	</div>
+
+
+</section>
+
+<div class="clear">
+</div>
+
+<section id="program">
+
+	<div class="row">
+		<div class="offset">
+	  	<h2>Canada's Premiere<br /> Development Bootcamp</h2>
+	  </div>
+	</div>
+
+  	<div class="row">
+		<div class="about">
+		  <h3 class="orange">Learn</h3>
+		  <p>You won't just <a href="/web">learn how to code</a>, you will learn how to learn. By the time you graduate Lighthouse Labs, you will have a strong practical knowledge of a multitude of languages and the ability to learn new programming languages at a professional pace. We make sure that you will be able to evolve as a developer in an ever-evolving tech industry.</p>
+		</div>
+
+		<div class="about">
+		  <h3 class="teal">Build</h3>
+		  <p>Rule #1 at Lighthouse Labs: Developers learn by doing. With an intensive, hands-on curriculum you will have the opportunity to work on open source and real world projects while being assisted by <a href="/team">instructors</a>. Less lectures and more mentor supported coding leads to more well prepared and experienced developers.</p>
+		</div>
+
+		<div class="about">
+		  <h3 class="pink">Work</h3>
+		  <p>Lighthouse Labs has a full-time Career Services team dedicated to helping students achieve their individual career goals. Whether you’re looking to become a full-time developer ASAP, take on a hybrid role, or even start your own startup, we’re here to help. Although no one can guarantee you a job, so far we’ve had 100% of students in our <a target="_blank" href="https://lighthouselabs.ca/blog/what-is-career-services-at-lighthouse-labs">accelerated program</a> find a job within 3 months of graduation!</p>
+		</div>
+	</div>
+
+	<div class="row divider">
+	  <hr/>
+	</div>
+
+	<div class="row learning-is-fun">
+		<div class="offset">
+  			<h2>What you'll learn</h2>
+  		</div>
+	</div>
+
+	<div class="skill-badges">
+		<div class="row">
+			<div class="languages">
+			  	<img alt="Ruby on Rails" src="/home/badge-rails.gif" />
+			  	<h4>Ruby on Rails</h4>
+			  	<p>The hottest coding language and framework of choice for popular sites like Twitter, Github, LinkedIn and YellowPages.</p>
+			</div>
+
+			<div class="languages">
+				<img alt="JavaScript" src="/home/badge-js.gif" />
+				<h4>JavaScript</h4>
+				<p>Learn the language that all web developers must know, along with popular libraries like jQuery.</p>
+			</div>
+
+			<div class="languages">
+				<img alt="HTML &amp; CSS" src="/home/badge-htmlcss.gif" />
+				<h4>HTML/CSS</h4>
+				<p>Learn to create gorgeous webpages and captivate audiences with HTML5 and CSS3.</p>
+			</div>
+
+			<div class="languages">
+				<img alt="Popular APIs" src="/home/badge-api.gif" />
+				<h4>Popular APIs</h4>
+				<p>Build apps that leverage Google Maps, Facebook, Twitter, Instagram, etc. and learn how to build APIs for your own apps.</p>
+			</div>
+
+			<div class="languages">
+				<img alt="Software Architecture" src="/home/badge-sa.gif" />
+				<h4>Software Architecture</h4>
+				<p>Understand Object Oriented software design and build well encapsulated & decoupled apps.</p>
+			</div>
+
+			<div class="languages">
+				<img alt="Responsive Design" src="/home/badge-responsive.gif" />
+				<h4>Responsive Design</h4>
+				<p>Learn to build sites that scale beautifully on iPad, iPhone, and other major devices.</p>
+			</div>
+
+			<div class="languages">
+				<img alt="Test Driven Development" src="/home/badge-tdd.gif" />
+				<h4>Test Driven Development</h4>
+				<p>More than just a buzz term, TDD is a mindset for writing tests as part of your development process.</p>
+			</div>
+
+			<div class="languages">
+				<img alt="Node &amp; Angular" src="/home/badge-node.gif" />
+				<h4>Angular and Node.js</h4>
+				<p>Our advanced students will also have the chance to learn to build fast and scalable server-side apps using the latest JS frameworks.</p>
+			</div>
+		</div>
+	</div>
+
+
+</section>
+
+<section id="program">
+
+  <div class="row">
+    <div class="offset">
+      <h2>Canada's First iOS Bootcamp</h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="about-ios about">
+      <h3 class="orange">Prep</h3>
+      <p>You'll work through a 6 week prep course that teaches you the basics of working in Xcode and the Objective-C language. You'll also have regular check-ins with our instructors to make sure you're ready for Day 1.</p>
+    </div>
+
+    <div class="about-ios about">
+      <h3 class="teal">Learn</h3>
+      <p>You'll spend most of your time in labs (and some in classes) improving your knowledge of Objective-C and learning the iOS SDK so you can build apps with cool features like Geolocation and Motion Sensors.</p>
+    </div>
+  </div>
+
+  <div class="row margined">
+    <div class="about-ios about">
+      <h3 class="pink">Build</h3>
+      <p>In the final phase of the in-class portion of the course, you'll work in teams to build an iOS app of your choosing with the guidance of our expert mentors. Then when you're done, you'll get to demo your apps to different companies in the community.</p>
+    </div>
+    <div class="about-ios about">
+      <h3 class="pink">Iterate</h3>
+      <p>After completing the bootcamp, you'll retain access to our curriculum, network of mentors, and past and future grads - all invaluable resources as you continue to build your career. Plus we'll give you advanced notice of other courses you might be interested in.</p>
+    </div>
+  </div>
+
+  <div class="row divider">
+    <hr/>
+  </div>
+
+  <div class="row learning-is-fun">
+    <div class="offset">
+        <h2>What you'll learn</h2>
+      </div>
+  </div>
+
+  <div class="skill-badges">
+    <div class="row">
+      <div class="languages">
+        <img alt="View Controllers" src="/ios/badge-views.gif" />
+        <h4>View Controllers</h4>
+        <p>Use Storyboards to build your apps using the many types of views in iOS. Plus, use Auto Layout to make sure your apps work on all iOS devices.</p>
+      </div>
+
+      <div class="languages">
+        <img alt="Data Persistence" src="/ios/badge-sql.gif" />
+        <h4>Data Persistence</h4>
+        <p>From User Attributes to CoreData, we'll teach you the best ways to let your users save data on your apps.</p>
+      </div>
+
+      <div class="languages">
+        <img alt="Popular APIs" src="/ios/badge-api.gif" />
+        <h4>Popular APIs</h4>
+        <p>Use AFNetworking to interface with popular APIs such as Google and Facebook, as well as your own!</p>
+      </div>
+
+      <div class="languages">
+        <img alt="Geolocation Services" src="/ios/badge-geolocation.gif" />
+        <h4>Geolocation Services</h4>
+        <p>Location aware apps are pretty awesome, and we'll teach you to build apps that use iPhone's geolocation services to make them awesome.</p>
+      </div>
+
+      <div class="languages">
+        <img alt="Motion and Gestures" src="/ios/badge-gestures.gif" />
+        <h4>Motion and Gestures</h4>
+        <p>Learn to make your apps interactive and usable with iOS's gestures and the iPhone/iPad's built in motion sensors.</p>
+      </div>
+
+      <div class="languages">
+        <img alt="Animation" src="/ios/badge-animation.gif" />
+        <h4>Animation</h4>
+        <p>Your apps should look as beautiful on the outside as the inside, and we'll make sure you can make awesome apps using iOS's animation features.</p>
+      </div>
+
+      <div class="languages">
+        <img alt="Mobile Architecture" src="/ios/badge-mobilearch.gif" />
+        <h4>Mobile Architecture</h4>
+        <p>Understand the fundamentals of designing software for mobile devices, from proper design patterns to memory and battery management.</p>
+      </div>
+
+      <div class="languages">
+        <img alt="Agile Development" src="/ios/badge-agile.gif" />
+        <h4>Agile Development</h4>
+        <p>Learn best practices for software development by working in teams on your projects.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row divider">
+	  <hr/>
+	</div>
+
+	  <div class="testimonial-slide">
+    <div class="owl-carousel" id="owl-carousel">
+
+      <div class="slide-container">
+        <div class="testimonials">
+          <div class="blockquote">
+            <h5>“</h5>
+          </div>
+
+          <div class="quote">
+            <p>Finding quality talent in Vancouver's expanding tech scene is extremely difficult. It's refreshing that Lighthouse Labs isn't just educating new developers, but teaching them how to succeed in this constantly evolving ecosystem.</p>
+          </div>
+
+          <div class="blockquote">
+            <h5>”</h5>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="offset">
+            <div class="quotee">
+              <div class="quote-img">
+                <img alt="Josh Lopour, Rets.ly" src="/home/testimonial-joshlopour.gif" />
+              </div>
+              <p>Josh Lopour, Rets.ly</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide-container">
+        <div class="testimonials">
+          <div class="blockquote">
+            <h5>“</h5>
+          </div>
+
+          <div class="quote">
+            <p>Khurram is an extraordinary instructor in software development and I would recommend him and Lighthouse Labs to anyone wanting to become serious about a career in development.</p>
+          </div>
+
+          <div class="blockquote">
+            <h5>”</h5>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="offset">
+            <div class="quotee">
+              <div class="quote-img">
+                <img alt="Jeff MacLean, Guestfolio" src="/home/testimonial-avatar.gif" />
+              </div>
+              <p>Jeff MacLean, Guestfolio</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide-container">
+        <div class="testimonials">
+          <div class="blockquote">
+            <h5>“</h5>
+          </div>
+
+          <div class="quote">
+            <p>The curriculum is intelligently designed and incredibly challenging. It will show you the limitations of your knowledge quickly while surrounding you with professionals who can help you grow. Expect to be stretched several times beyond your capacity!</p>
+          </div>
+
+          <div class="blockquote">
+            <h5>”</h5>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="offset">
+            <div class="quotee">
+              <div class="quote-img">
+                <img alt="Jillian Evin, Lighthouse Grad" src="/home/jillianevin.gif" />
+              </div>
+              <p>Jillian Evin, Wishpond</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide-container">
+        <div class="testimonials">
+          <div class="blockquote">
+            <h5>“</h5>
+          </div>
+
+          <div class="quote">
+            <p>Immersion is the key to learning a new skill. Get ready to spend eight of the most challenging weeks surrounded by some of the brightest minds in the Vancouver tech scene and with peers who are as serious about programming as you are.</p>
+          </div>
+
+          <div class="blockquote">
+            <h5>”</h5>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="offset">
+            <div class="quotee">
+              <div class="quote-img">
+                <img alt="Regan Perkins, Pressboard" class="student-quote" src="/team/regan.jpg" />
+              </div>
+              <p>Regan Perkins, Pressboard</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide-container">
+        <div class="testimonials">
+          <div class="blockquote">
+            <h5>“</h5>
+          </div>
+
+          <div class="quote">
+            <p>The curriculum is both exciting and challenging. The instructors force you and support you to push the boundaries of your knowledge. The environment is friendly, warm and inspiring. A very intense, life-changing journey!</p>
+          </div>
+
+          <div class="blockquote">
+            <h5>”</h5>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="offset">
+            <div class="quotee">
+              <div class="quote-img">
+                <img alt="Sarah Martin, Telus" class="student-quote" src="/team/sarahmartin.jpg" />
+              </div>
+              <p>Sarah Martin, Telus</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide-container">
+        <div class="testimonials">
+          <div class="blockquote">
+            <h5>“</h5>
+          </div>
+
+          <div class="quote">
+            <p>At Lighthouse Labs there is a culture of enthusiastic learning and exploration that is incredibly inspiring. They'll teach you to code, but you'll also learn how to be your own teacher, and that's absolutely invaluable.</p>
+          </div>
+
+          <div class="blockquote">
+            <h5>”</h5>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="offset">
+            <div class="quotee">
+              <div class="quote-img">
+                <img alt="Xianny Ng, Bench" class="student-quote" src="/team/xianny.jpg" />
+              </div>
+              <p>Xianny Ng, Bench</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide-container">
+        <div class="testimonials">
+          <div class="blockquote">
+            <h5>“</h5>
+          </div>
+
+          <div class="quote">
+            <p>Lighthouse Labs kickstarted my career as a professional developer. The curriculum is current, relevant, and engaging. It was the best possible use of my time.</p>
+          </div>
+
+          <div class="blockquote">
+            <h5>”</h5>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="offset">
+            <div class="quotee">
+              <div class="quote-img">
+                <img alt="Colin Clay, Rest.ly" class="student-quote" src="/home/colin_clay.jpg" />
+              </div>
+              <p>Colin Clay, Rest.ly</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide-container">
+        <div class="testimonials">
+          <div class="blockquote">
+            <h5>“</h5>
+          </div>
+
+          <div class="quote">
+            <p>At the risk of sounding clichéd, Lighthouse Labs changed my life. My work is now exciting and challenging, and I'm surrounded by amazing, smart people. After just 8 (intense) weeks, the possibilities are endless.</p>
+          </div>
+
+          <div class="blockquote">
+            <h5>”</h5>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="offset">
+            <div class="quotee">
+              <div class="quote-img">
+                <img alt="Ali Yazdani, Fetch" class="student-quote" src="/team/ali_yazdani.jpg" />
+              </div>
+              <p>Ali Yazdani, Fetch</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide-container">
+        <div class="testimonials">
+          <div class="blockquote">
+            <h5>“</h5>
+          </div>
+
+          <div class="quote">
+            <p>One of the biggest problems Vancouver startups face right now is finding and hiring great tech talent. Bootcamps like those offered by Lighthouse Labs are a great way to help increase the number of enthusiastic developers in the community.</p>
+          </div>
+
+          <div class="blockquote">
+            <h5>”</h5>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="offset">
+            <div class="quotee">
+              <div class="quote-img">
+                <img alt="Kraig Docherty, Invoke Labs" class="student-quote" src="/home/kraig.png" />
+              </div>
+              <p>Kraig Docherty, Invoke Labs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+	<div class="row divider">
+	  <hr/>
+	</div>
+
+	<div class="row">
+		<div class="offset">
+			<p class="subhead" id="curious">Curious to learn more about our web and mobile development programs?</p>
+    </div>
+  </div>
+
+    <div class="row">
+      <div class="course-card-container">
+        <div id="ft-web" class="course-card two-wide">
+          <a href="/web">
+          <img alt="Web Development" class="course-image" src="/home/bootcamp.png" />
+
+          <div class="course-title">
+            <p>
+              <b>Web Development Bootcamp </b><br>
+              <small>8 weeks, full time immersive</small>
+            </p>
+          </div>
+
+          <div class="course-description">
+            <p class="subhead">
+              This is how you become a web developer. You’ll learn best practices from industry pros, connect with Canada’s top tech companies, and accelerate your coding skills.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="badge-container">
+              <div class="course-badge">
+                <img src="/home/badge-rails.gif">
+                <p>Rails</p>
+              </div>
+              <div class="course-badge">
+                <img src="/home/badge-js.gif">
+                <p>JavaScript</p>
+              </div>
+              <div class="course-badge">
+                <img src="/home/badge-db.gif">
+                <p>Databases</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="course-button">
+            <p class="subhead">
+              <b>Read More</b>
+            </p>
+          </div>
+</a>        </div>
+
+        <div id="pt-web" class="course-card two-wide">
+          <a href="/intro-to-web">
+          <img alt="Intro to Web Development" class="course-image" src="/home/partweb.png" />
+
+          <div class="course-title">
+            <p>
+              <b>Intro to Web Development</b><br>
+              <small>6 weeks, part time evenings</small>
+            </p>
+          </div>
+
+          <div class="course-description">
+            <p class="subhead">
+              2 nights a week, 3 hours per class. This is the ultimate career booster. You'll build beautiful web apps, understand front and back end web technologies.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="badge-container">
+              <div class="course-badge">
+                <img src="/program/badge-ruby@2x.gif">
+                <p>Ruby</p>
+              </div>
+              <div class="course-badge">
+                <img src="/home/badge-sinatra.gif">
+                <p>Sinatra</p>
+              </div>
+              <div class="course-badge">
+                <img src="/home/badge-htmlcss.gif">
+                <p>HTML/CSS</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="course-button" id="part-time-button">
+            <p class="subhead">
+              <b>Read More</b>
+            </p>
+          </div>
+</a>        </div>
+
+        <div id="ft-ios" class="course-card two-wide">
+          <a href="/ios">
+          <img alt="iOS Development" class="course-image" src="/home/iosboot.png" />
+          <div class="course-title">
+            <p>
+              <b>iOS Development Bootcamp </b> <br>
+              <small>8 weeks, full time immersive</small>
+            </p>
+          </div>
+
+          <div class="course-description">
+            <p class="subhead">
+              Bring your ideas to life in the palm of your hand. You’ll create fully publishable iOS apps and become highly sought-after on the Canadian developer job market.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="badge-container">
+              <div class="course-badge">
+                <img src="/ios/badge-sdk.png">
+                <p>iOS SDk</p>
+              </div>
+              <div class="course-badge">
+                <img src="/ios/badge-objectivec.png">
+                <p>Objective-C</p>
+              </div>
+              <div class="course-badge">
+                <img src="/ios/badge-swift.png">
+                <p>Swift</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="course-button" id="ios-button">
+            <p class="subhead">
+              <b>Read More</b>
+            </p>
+          </div>
+</a>        </div>
+
+        <div id="pt-ios" class="course-card two-wide">
+        <a href="/ios-part-time">
+          <img alt="Intro to iOS Development" class="course-image" src="/home/iospart.png" />
+          <div class="course-title">
+            <p>
+              <b>Intro to iOS Development</b><br>
+              <small>6 weeks, part time evenings</small>
+            </p>
+          </div>
+
+          <div class="course-description">
+            <p class="subhead">
+              Understand the full process of building an app. We aren’t talking about Flappy Bird, either - your app will interact seamlessly with the user, other apps, and the world around it.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="badge-container">
+              <div class="course-badge">
+                <img src="/ios/badge-sdk.png">
+                <p>iOS SDK</p>
+              </div>
+              <div class="course-badge">
+                <img src="/ios/badge-parse.png">
+                <p>Parse</p>
+              </div>
+              <div class="course-badge">
+                <img src="/ios/badge-swift.png">
+                <p>Swift</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="course-button" id="ios-part-time-button">
+            <p class="subhead">
+              <b>Read More</b>
+            </p>
+          </div>
+</a>        </div>
+
+      </div>
+    </div>
+
+</section>
+
+<section id="communities">
+
+  <div class="row">
+    <div class="offset">
+      <h2>Communities</h2>
+      <p class="subhead">
+        We are located in Canada's top tech hubs! It is important to us that we don't just teach people to code in front of a screen - we want to immerse them in the developer lifestyle. Our spaces are the perfect places to learn from other developers, meet incredible entrepreneurs, and grow your network in the flourishing tech community.
+      </p>
+    </div>
+  </div>
+
+    <div class="row">
+      <div class="location-card-container">
+        
+        <div class="community-cards" id="toronto-location">
+          <a href="/toronto">
+            <div class="card-splash">
+              <div class="row">
+                <h3>Toronto</h3>       
+              </div>
+            </div>
+
+            <div class="community-location">
+              <p>
+                <b>HIGHLINE OFFICE</b> 
+              </p>
+              <p>639 Queen St W Toronto - Third Floor</p>
+            </div>
+
+            <div class="location-courses">
+              <div class="row">
+                <p>Courses Currently Offered:</p>
+              </div>
+
+              <div class="row">
+                <div class="offset">
+                  <div class="course-offered">
+                    <img src="/home/bootcamp.png" alt="Bootcamp" />
+                  </div>
+
+                  <div class="course-offered">
+                    <img src="/home/partweb.png" alt="Partweb" />
+                  </div>
+
+                  <div class="course-offered">
+                    <img src="/home/iosboot.png" alt="Iosboot" />
+                  </div>
+                </div>
+              </div>  
+            </div>
+
+            <div class="location-button">
+              <p class="subhead">Read More</p>
+            </div>
+</a>
+        </div>
+
+        <div class="community-cards" id="vancouver-location">
+          <a href="/vancouver">
+            <div class="card-splash">
+              <div class="row">
+                <h3>Vancouver</h3>       
+              </div>
+            </div>
+
+            <div class="community-location">
+              <p>
+                <b>Launch Academy</b> 
+              </p>
+              <p>#300 128 W. Hasting St. Vancouver</p>
+            </div>
+
+            <div class="location-courses">
+              <div class="row">
+                <p>Courses Currently Offered:</p>
+              </div>
+
+              <div class="row">
+                <div class="offset">
+                  <div class="course-offered">
+                    <img src="/home/bootcamp.png" alt="Bootcamp" />
+                  </div>
+
+                  <div class="course-offered">
+                    <img src="/home/partweb.png" alt="Partweb" />
+                  </div>
+
+                  <div class="course-offered">
+                    <img src="/home/iosboot.png" alt="Iosboot" />
+                  </div>
+
+                  <div class="course-offered">
+                    <img src="/home/iospart.png" alt="Iospart" />
+                  </div>
+                </div>
+              </div>  
+            </div>
+
+            <div class="location-button">
+              <p class="subhead">Read More</p>
+            </div>
+</a>
+        </div>
+
+        <div class="community-cards" id="calgary-location">
+          <a href="/calgary">
+            <div class="card-splash">
+              <div class="row">
+                <h3>Calgary</h3>       
+              </div>
+            </div>
+
+            <div class="community-location">
+              <p>
+                <b>Assembly</b> 
+              </p>
+              <p>#119 14 Street Northwest, Calgary</p>
+            </div>
+
+            <div class="location-courses">
+              <div class="row">
+                <p>Courses Currently Offered:</p>
+              </div>
+
+              <div class="row">
+                <div class="offset">
+                  <div class="course-offered">
+                    <img src="/home/bootcamp.png" alt="Bootcamp" />
+                  </div>
+                  
+                  <div class="course-offered">
+                    <img src="/home/partweb.png" alt="Partweb" />
+                  </div>
+                </div>
+              </div>  
+            </div>
+
+            <div class="location-button">
+              <p class="subhead">Read More</p>
+            </div>
+</a>
+        </div>
+
+        </div>
+      </div>
+    </div>
+
+</section>
+
+<section id="html500">
+  <div class="row">
+    <div class="offset">
+      <a target="_blank" href="http://www.thehtml500.com"><img alt="HTML500" src="/html500/html500_logo.png" /></a>
+      <p class="subhead">
+        This year, we created the HTML500 to inspire more people to learn to code. 
+        <br>
+        To everyone who made it possible: Thank You.
+      </p>
+      <!-- <div class="button">
+      </div> -->
+    </div>
+  </div>
+  <div class="row">
+    <div class="video-container">
+      <!-- <div id="player" data-id="fL1WPWVc8j4"></div> -->
+      <div id="player">
+        <img id="thumbnail" src="/assets/video-thumbnail-71bcb608eaf94eb30d24027efff8314f44b6ac69b9b5c139b50064de29324195.jpg" alt="Video thumbnail 71bcb608eaf94eb30d24027efff8314f44b6ac69b9b5c139b50064de29324195" />
+        <img id="play" src="/home/play-btn.png" alt="Play btn" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="partners">
+
+	<div class="row">
+		<div class="offset">
+		  <h2>LIGHTHOUSE LABS IS FILLING THE TALENT GAP</h2>
+
+      <p class="subhead">
+        Our grads are equipped with the skills they need to immediately contribute as professional developers. Our dedicated <a target="_blank" href="https://www.linkedin.com/in/cfothergill">Director Of Career Services</a> works directly with employers to connect them with alumni and find a perfect fit. Join some of Canada’s most esteemed tech companies as a hiring partner!
+      </p>
+      
+    </div>
+  </div>
+
+	<div class="row">
+		<div class="partner-list">
+			<div class="partner">
+			  <a href="http://www.hootsuite.com"><img src="/home/partners-hootsuite.gif" alt="Partners hootsuite" /></a>
+			</div>
+      <div class="partner">
+        <a target="_blank" href="http://www.mec.ca/"><img alt="MEC" src="/assets/home-mec-97cf4e06b4bffbab4365637e06f8ec2b8e454d778c2e52233d89cc6fab677305.png" /></a>
+      </div>
+			<div class="partner">
+			  <a target="_blank" href="http://www.bench.co"><img alt="Bench" src="/home/partners-bench.gif" /></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="offset">
+			<div class="button">
+		  	<a href="/partners">Ready to Hire?</a>
+		  </div>
+		</div>
+	</div>
+
+  <div class="row">
+    <div class="offset">
+      <p class="subhead">
+        OR<br><a href="/partners#current-partners">See the full list</a>
+        </p>
+    </div>
+  </div>
+
+</section>
+
+
+<div class="clear">
+</div>
+
+<section id="questions">
+
+  <div class="row">
+    <div class="offset">
+    <h2>Questions?</h2>
+    <p class="subhead">Have some more questions? Inquiring about specific services? Fill in the form below and we'll get in touch with you as soon as we can.</p>
+  </div>
+
+  <div class="offset">
+
+    <form action="https://lighthouselabs.ca/contact_requests" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="IhWLE/jZAFVQvI5Ome4GP2l2gSr75hncwhGWYNeZqDKVGhRqy8KeBKAZJOKN2QPaznk4Yr3LS/LnYfwN1ccB8Q==" />
+
+      
+        
+      <div class="group">
+        <input placeholder="Name" required="required" class="input" type="text" name="contact[name]" id="contact_name" />
+      </div>
+
+      <div class="group">
+        <input placeholder="Email" required="required" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" class="input" type="text" name="contact[email]" id="contact_email" />
+      </div>
+
+      <div class="group">
+        <input placeholder="Where are you contacting us from? (city, country)" required="required" class="input" type="text" name="contact[location]" id="contact_location" />
+      </div>
+
+      <div class="group">
+        <select class="input" required="required" name="contact[type_of_contact]" id="contact_type_of_contact"><option value="">What would you like to know about?</option>
+<option value="Bootcamp">Bootcamp</option>
+<option value="HTML500">HTML500</option>
+<option value="Part-Time Course">Part-Time Course</option>
+<option value="Hiring Partnership">Hiring Partnership</option>
+<option value="Other Partnerships">Other Partnerships</option>
+<option value="General Inquiring">General Inquiring</option></select>
+      </div>
+
+      <div class="group">
+        <select class="input" required="required" name="contact[how_did_you_find_us]" id="contact_how_did_you_find_us"><option value="">How&#39;d you hear about us</option>
+<option value="Friend or Family">Friend or Family</option>
+<option value="Article">Article</option>
+<option value="Event">Event</option>
+<option value="Google Search">Google Search</option>
+<option value="Facebook">Facebook</option>
+<option value="Twitter">Twitter</option>
+<option value="HTML500">HTML500</option></select>
+      </div>
+      
+      <div class="group">
+        <textarea placeholder="Tell us about yourself and what you&#39;re looking for - feel free to ask some questions too!" required="required" class="input" rows="5" name="contact[message]" id="contact_message">
+</textarea>
+      </div>
+
+      <div class="subscription">
+        <label>
+          Subscribe to our newsletter?  
+          <input type="checkbox" name="subscribe" id="subscribe" value="true" />
+          <span class="subscribe-check"></span>
+        </label>
+      </div>
+
+      <input type="submit" name="commit" value="Submit" data-disable-with="Please Wait" class="button" id="send-contact" /> 
+
+</form>  </div>
+
+</section>
+
+
+  
+
+  <div id="floating-contact">
+  <div class="contact-us-title">
+    <p>GIVE US A CALL</p>
+    <div class="arrow">
+    </div>
+  </div>
+
+  <div class="contact-us-form">
+    <p>t. 1 (888) 569-6898</p>
+    <p>Get updates on the Lighthouse Labs community.</p>
+    <form action="/submit-subscriptions" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+      <div class="row">
+        <input placeholder="Email" class="contact-email-field" required="required" type="email" name="subscription[email]" id="subscription_email" />
+        <input type="submit" name="commit" value="subscribe" class="contact-card-submit" />
+      </div>
+</form>  </div>
+</div>
+
+  
+<footer class="home-footer">
+  <div class="row">
+    <div class="phone-number">
+      <p class="info">
+        GIVE US A CALL @ 1 (888) 569-6898
+      </p>
+    </div>
+  </div>
+
+    <div class="row">
+      <div class="site-map">
+        <p class="slash">
+          <a href="/web">WEB DEVELOPMENT BOOTCAMP</a> /
+          <a href="/ios">iOS DEVELOPMENT BOOTCAMP</a> /
+          <a href="/intro-to-web">INTRO TO WEB DEVELOPMENT</a> /
+          <a href="/intro-to-ios">INTRO TO iOS DEVELOPMENT</a>
+        </p>
+        <p class="slash">
+          <a href="/apply">APPLY</a> /
+          <a href="/partners">EMPLOYER</a> /
+          <a href="/team">TEAM</a> /
+          <a href="/faq">FAQ</a> /
+          <a href="/contact">CONTACT</a> /
+          <a href="/blog">BLOG</a> /
+          <a href="/privacy">PRIVACY</a> /
+          <a href="/showcase">FEATURED PROJECTS</a>
+
+        </p>
+        <p class="slash">
+          <a href="/vancouver">VANCOUVER</a> /
+          <a href="/toronto">TORONTO</a> /
+          <a href="/calgary">CALGARY</a> /
+         <!--  <a href="/okanagan">OKANAGAN</a> -->
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+
+  <form class="subscribe" action="/submit-subscriptions" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+    <div class="offset">
+      <p>Stay posted on new courses, events, and student stories!</p>
+    </div>
+    <input required="required" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" placeholder="Email" class="subscribe-input" type="email" name="subscription[email]" id="subscription_email" />
+    <input type="submit" name="commit" value="Submit" data-disable-with="Please Wait" class="subscribe-button" /> 
+</form>
+</div>
+    
+    <div class="row">
+      <div class="info">
+        <div class="sm-icons">
+            <a class="facebook" href="https://www.facebook.com/lighthouselabsvancouver"></a>
+
+            <a class="twitter" href="https://twitter.com/lighthouse_labs"></a>
+
+            <a class="google" href="https://plus.google.com/b/112370677918578198074"></a>
+
+            <a class="youtube" href="https://www.youtube.com/channel/UCMv7ye89OxEzW0JxiL20Cpw"></a>
+
+            <a class="instagram" href="https://www.instagram.com/lighthouselabs"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="info" id="alumcred">
+        <h4>Many thanks to our alumni!</h4>
+        <p>
+          This website was originally designed and built by our Web Dev Bootcamp alumni
+          <a target="_blank" href="https://ca.linkedin.com/in/josephmasongsong">Joseph</a>
+          &amp;
+          <a target="_blank" href="https://ca.linkedin.com/in/rachelng">Rachel</a>. 
+          <br>
+          Thanks guys, you are amazing.
+        </p>
+        <p>
+          Currently maintained by our dear Web Dev Bootcamp alumnus and intern
+          <a target="_blank" href="https://www.linkedin.com/in/jamesmatsuba">James Matsuba</a>. 
+          <br>
+          Matsuba, you're also pretty cool.
+        </p>
+        <p> Previous maintainer was <a target="_blank" href="http://ca.linkedin.com/pub/andrew-gardhouse/a7/776/962/en">Andrew Gardhouse</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="info">
+        <h4>Headquarters</h4>
+        <p class="address">300 - 128 W. Hastings. Vancouver BC V6B 1G8 (<a target="_blank" href=" https://www.google.ca/maps/place/Lighthouse+Labs/@49.281844,-123.108162,17z/data=!3m1!4b1!4m2!3m1!1s0x5486717986455555:0xcf2dfb0f48c8a056">See Map</a>)
+        </p>
+        <br>
+        <p class="disclaimer">© 2015 Lighthouse Labs  |  All Rights Reserved.</p>
+      </div>
+    </div>
+
+</footer>
+
+
+  	<script>
+    $(document).ready(function($) {
+   		controller = new ScrollMagic();
+
+      var badges = TweenMax.from(".languages", 1.5, {autoAlpha: 0});
+
+      var scene = new ScrollScene({triggerElement: ".learning-is-fun"})
+        .setTween(badges)
+        .addTo(controller);
+	  	});
+
+    $('#play').on('click', function(){
+      var html500ThankYou = '<iframe width="100%" height="315" src="https://www.youtube.com/embed/fL1WPWVc8j4?rel=0&amp;showinfo=0;autoplay=1;autohide=1;" frameborder="0" allowfullscreen></iframe>';
+
+      $('#player').replaceWith(html500ThankYou);
+    });
+
+	</script>
+
+
+    <!-- Google Code for Remarketing Tag -->
+  <script type="text/javascript">
+  /* <![CDATA[ */
+  var google_conversion_id = 926723592;
+  var google_custom_params = window.google_tag_params;
+  var google_remarketing_only = true;
+  /* ]]> */
+  </script>
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+  </script>
+  <noscript>
+  <div style="display:inline;">
+  <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/926723592/?value=0&amp;guid=ON&amp;script=0"/>
+  </div>
+  </noscript>
+
+
+</body>
+
+</html>
