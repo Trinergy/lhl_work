@@ -1,4 +1,5 @@
 def to_roman(number)
+  
   #math formula reducing input to number groups
   input = number
   tho_var = input / 1000
@@ -14,6 +15,7 @@ def to_roman(number)
   fiv_var = input / 5 
   input = input - (fiv_var * 5)
   one_var = input
+
   #add number groups to an array
   roman_numeral = ""
   tho_var.times do |char|
@@ -39,8 +41,13 @@ def to_roman(number)
   end
   puts roman_numeral
 end
+
+puts "2687"
 to_roman(2687)
+puts "4"
 to_roman(4)
+puts "5"
 to_roman(5)
+puts "551"
 to_roman(551)
 
