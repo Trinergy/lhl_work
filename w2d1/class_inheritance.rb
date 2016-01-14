@@ -21,3 +21,5 @@ puts jump.warm_blooded
 puts squawk.fly
 
 puts blindy.fly
+
+puts chimp
