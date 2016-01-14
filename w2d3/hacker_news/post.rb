@@ -1,6 +1,6 @@
-require 'open-uri'
-require 'nokogiri'
-require 'pry'
+# require 'open-uri'
+# require 'nokogiri'
+# require 'pry'
 
 class Post
   attr_reader :title, :url, :points, :item_id, :comment_count, :comments
