@@ -21,12 +21,15 @@ doc = Nokogiri::HTML(open(url))
 
 #removing the word "reply"
 doc.search(".reply").remove
+#removing time on comment post / can add time later if using Time module for #add_comment
+doc.search(".age").remove
+
 
 #extract comment_text from the HTML page
 comment_text = doc.search(".comment").map {|comment| comment.inner_text}
 
 #extract user from the HTML page
-users_text = doc.search(".comhead").map {|user| user.inner_text}
+users_text = doc.search(".comhead").map {|user| user.inner_text}.drop(1)
 
 #match user with comments and form array of each instance
 user_comments = users_text.zip(comment_text).map{|comment| Comment.new(comment[0],comment[1])}

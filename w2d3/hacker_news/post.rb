@@ -3,7 +3,7 @@
 # require 'pry'
 
 class Post
-  attr_reader :title, :url, :points, :item_id, :comment_count, :comments
+  attr_reader :title, :url, :points, :item_id, :comment_count, :commentspos
 
   def initialize(url, comments)
     page = Nokogiri::HTML(open(url))
@@ -22,7 +22,15 @@ class Post
     end
   end
 
-  def add_comment
+  #match format of other comments. or change other comments' format
+  #be more strict about the inputs for user data, sometimes
+  # first element is not username
+
+  def add_comment(user, text)
+    format_user = "\n          #{user}           \n                  "
+    format_text = "\n                  #{text}\n              "
+    new_comment = Comment.new(format_user, format_text)
+    @comments << new_comment
   end
 
 end
