@@ -20,7 +20,7 @@ describe Robot do
   describe "#attack!" do
     it "should attack and deal 5 damage" do
       @robot1.attack!(@robot2)
-      expect(@robot2.health).to eql(95)
+      expect(@robot2.shield).to eql(45)
     end
 
     it "should throw error if target is not a robot" do

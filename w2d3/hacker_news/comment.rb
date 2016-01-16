@@ -1,8 +1,3 @@
-# require 'open-uri'
-# require 'nokogiri'
-# require 'pry'
-
-
 class Comment
   attr_reader :user, :text
 
@@ -10,5 +5,4 @@ class Comment
     @user = user
     @text = text
   end
-
 end

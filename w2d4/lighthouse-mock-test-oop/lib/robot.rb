@@ -102,9 +102,12 @@ class Robot
 
 
   def wound(amount)
+    remaining_amount = 0
     if amount > 50
       @shield = 0
       remaining_amount = amount - 50
+    else
+      @shield -= amount
     end
     @health -= remaining_amount
     @health = 0 if @health <= 0
