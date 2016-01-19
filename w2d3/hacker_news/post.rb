@@ -19,7 +19,7 @@ class Post
   end
 
   def comment_count
-    @comments.size
+    "#{@comments.size} comments"
   end
 
 
