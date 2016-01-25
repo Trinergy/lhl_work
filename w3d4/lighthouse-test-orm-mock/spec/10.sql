@@ -56,6 +56,14 @@
 -- EDIT THE FOLLOWING SQL --
 -- ====================== --
 
-SELECT name, female_employees, male_employees FROM stores;
+SELECT 
+  name, 
+  SUM(female_employees +  male_employees) AS sum 
+FROM 
+  stores 
+GROUP BY 
+  name 
+ORDER BY 
+  sum DESC;
 
 

@@ -63,6 +63,9 @@
 -- EDIT THE FOLLOWING SQL --
 -- ====================== --
 
-SELECT first_name FROM employees;
-
+SELECT 
+  e.first_name, 
+  s.name AS store_name 
+FROM employees AS e 
+  LEFT JOIN stores AS s ON e.store_id = s.id
 
