@@ -1,4 +1,6 @@
-Here are all the lighthouse labs exercises I have worked on uring my cohort of January 2016.
+Here are all the lighthouse labs exercises I have worked on during my cohort of January 2016.
+
+(Only First 3 weeks are included, other bigger exercises have their separate repositories)
 
 Challenges: Sorting algorithms!
 
