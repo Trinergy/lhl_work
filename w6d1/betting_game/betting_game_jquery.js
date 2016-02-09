@@ -43,6 +43,4 @@ $('.submit-button').on('click', function() {
     printBank();
     printAnswer();
     newAnswer();
-    console.log('player bet', player.bet, typeof(player.bet));
-    console.log('playe guess', player.guess, typeof(player.guess));
   });
