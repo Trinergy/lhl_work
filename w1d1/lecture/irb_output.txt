@@ -1,0 +1,88 @@
+2.2.1 :001 > "LSD
+2.2.1 :002"> "
+ => "LSD\n" 
+2.2.1 :003 > "LSD"
+ => "LSD" 
+2.2.1 :004 > "Logic"
+ => "Logic" 
+2.2.1 :005 > "Syntax"
+ => "Syntax" 
+2.2.1 :006 > "Data"
+ => "Data" 
+2.2.1 :007 > 21
+ => 21 
+2.2.1 :008 > 12.34
+ => 12.34 
+2.2.1 :009 > ["a", "b", "c"]
+ => ["a", "b", "c"] 
+2.2.1 :010 > my_string = "This is my string"
+ => "This is my string" 
+2.2.1 :011 > four = 2 + 2
+ => 4 
+2.2.1 :012 > 2.+(2)
+ => 4 
+2.2.1 :013 > puts my_string
+This is my string
+ => nil 
+2.2.1 :014 > list = [1, 2, 3, 4, 5]
+ => [1, 2, 3, 4, 5] 
+2.2.1 :015 > list.each do |x|
+2.2.1 :016 >     puts x
+2.2.1 :017?>   end
+1
+2
+3
+4
+5
+ => [1, 2, 3, 4, 5]
+ 2.2.1 :018 > def my_method
+2.2.1 :019?>   2 + 2
+2.2.1 :020?>   end
+ => :my_method 
+2.2.1 :021 > my_method
+ => 4 
+2.2.1 :022 > def different_method
+2.2.1 :023?>   [1, 2, 3, 4, 5].each do |x|
+2.2.1 :024 >       puts x
+2.2.1 :025?>     end
+2.2.1 :026?>   end
+ => :different_method 
+2.2.1 :027 > different_method
+1
+2
+3
+4
+5
+ => [1, 2, 3, 4, 5] 
+2.2.1 :028 > def wtf
+2.2.1 :029?>   puts "Before return"
+2.2.1 :030?>   return 2 + 3
+2.2.1 :031?>   puts "After return"
+2.2.1 :032?>   2 + 4
+2.2.1 :033?>   end
+ => :wtf 
+2.2.1 :034 > wtf
+Before return
+ => 5 
+2.2.1 :035 > def redundant_method
+2.2.1 :036?>   return 2 + 4
+2.2.1 :037?>   end
+ => :redundant_method 
+2.2.1 :038 > redundant_method
+ => 6 
+2.2.1 :039 > def not_redundant_method
+2.2.1 :040?>   2 + 4
+2.2.1 :041?>   end
+ => :not_redundant_method 
+2.2.1 :042 > not_redundant_method
+ => 6 
+2.2.1 :043 > puts something
+NameError: undefined local variable or method `something' for main:Object
+  from (irb):43
+  from /Users/don/.rvm/rubies/ruby-2.2.1/bin/irb:11:in `<main>'
+2.2.1 :044 > something = 42
+ => 42 
+2.2.1 :045 > puts something
+42
+ => nil 
+2.2.1 :046 > 
