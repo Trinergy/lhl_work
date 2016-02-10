@@ -1,1 +1,48 @@
-<h1>Home Page</h1>
+
+<h1>Contact list</h1>
+<button class="btnAll">List Contacts</button>
+<button class="btnCreate">New Contact</button>
+<button class="btnSearch">Search Contact</button>
+<button class="btnDelete">Delete Contact</button>
+
+
+<div class="searchContactFormBox">
+  <form id="searchContactForm">
+    <input type="text" id="contactId" placeholder="ID"><br>
+    <input id="searchBtn" type="button" value="Submit"><br>
+  </form>
+</div>
+
+<div class="deleteContactFormBox">
+  <form id="deleteContactForm">
+    <input type="text" id="deleteId" placeholder="ID"><br>
+    <input id="deleteBtn" type="button" value="Delete"><br>
+  </form>
+</div>
+
+<div class="newContactFormBox">
+  <form id="newContactForm">
+    <input type="text" id="nickname" placeholder="Nickname"><br>
+    <input type="text" id="firstName" placeholder="First Name"><br>
+    <input type="text" id="lastName" placeholder="Last Name"><br>
+    <input type="text" id="phoneNumber" placeholder="Phone Number"><br>
+    <input type="text" id="email" placeholder="Email"><br>
+    <input type="submit" value="Submit"><br>
+  </form>
+</div>
+
+<div class="contactsBox">
+  <table id="contactList">
+    <thead id="contactHeader">
+      <tr>
+        <th>Nickname</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Phone Number</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+</div>
