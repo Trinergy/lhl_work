@@ -35,22 +35,27 @@ end
 
 get '/contacts/search' do
   search_id = params[:id]
-  # results = {result: false}
+  results = {result: false}
 
-  contact = Contact.find(search_id.to_i)
-  # if contact.nil?
-  #   results.to_json
-  # else
-  #   contact.to_json
-  # end
-  contact.to_json
+  contact = Contact.find_by(id: search_id.to_i)
+  if contact.blank?
+    results.to_json
+  else
+    contact.to_json
+  end
 end
 
 get '/contacts/delete' do
   delete_id = params[:id]
+  results = {result: false}
 
-  contact = Contact.find(delete_id)
-  contact.to_json
-  Contact.destroy(delete_id)
+  contact = Contact.find_by(id: delete_id)
+  if contact.blank?
+    results.to_json
+  else
+    Contact.destroy(delete_id)
+    results[:result] = true
+    results.to_json
+  end
 
 end

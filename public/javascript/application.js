@@ -30,10 +30,10 @@ $(document).ready(function() {
     var phoneNumber = $('#phoneNumber').val();
     var email = $('#email').val();
 
-    // if (nickname == "" || firstName == "" || lastName == "" || phoneNumber == "" || email == "") {
-    //   alert("You must fill out all the fields!");
-    //   return false;
-    // }
+    if (nickname == "" || firstName == "" || lastName == "" || phoneNumber == "" || email == "") {
+      alert("You must fill out all the fields!");
+      return false;
+    }
 
     $.post('/contacts/new', {nickname: nickname, 
                              first_name: firstName, 
@@ -55,22 +55,24 @@ $(document).ready(function() {
     $('#searchContactForm').show();
     $('#newContactForm').hide();
     $('#deleteContactForm').hide();
-  })
+  });
 
   $('#searchContactForm').on('click', '#searchBtn', function() {
     var contactId = $('#contactId').val();
 
     $.getJSON('/contacts/search', {id: contactId}, function(contact) {
-      // if (contact.result == false)
-      //   console.log("no data");
-      var table = $('#contactList').find('tbody').empty();
-      var tr = $('<tr>').addClass('contact').appendTo(table);
-      $('<td>').appendTo(tr).text(contact.id + " " + contact.nickname);
-      $('<td>').appendTo(tr).text(contact.first_name);
-      $('<td>').appendTo(tr).text(contact.last_name);
-      $('<td>').appendTo(tr).text(contact.phone_number);
-      $('<td>').appendTo(tr).text(contact.email);
-      $('#contactList').fadeIn('slow');
+      if (contact.result === false) {
+        alert("Noting Found!");
+      } else {
+        var table = $('#contactList').find('tbody').empty();
+        var tr = $('<tr>').addClass('contact').appendTo(table);
+        $('<td>').appendTo(tr).text(contact.id + " " + contact.nickname);
+        $('<td>').appendTo(tr).text(contact.first_name);
+        $('<td>').appendTo(tr).text(contact.last_name);
+        $('<td>').appendTo(tr).text(contact.phone_number);
+        $('<td>').appendTo(tr).text(contact.email);
+        $('#contactList').fadeIn('slow');
+      }
     });
     //   if (data.result) {
     //     alert("Contact found!");
@@ -90,10 +92,13 @@ $(document).ready(function() {
 
   $('#deleteContactForm').on('click', '#deleteBtn', function() {
     var deleteId = $('#deleteId').val();
-    console.log(deleteId);
     $.getJSON('/contacts/delete', {id: deleteId}, function(contact) {
-      console.log("delete worked");
-    })
+      if (contact.result === false) {
+        alert("delete failed");
+      } else {
+        alert("contact deleted");
+      }
+    });
   });
 
 
