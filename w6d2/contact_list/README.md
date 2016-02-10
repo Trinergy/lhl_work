@@ -1,10 +1,14 @@
-Sinatra
-=============
+Here are all the lighthouse labs exercises I have worked on during my cohort of January 2016.
 
-Brought to you by Lighthouse Labs
+(Larger projects have their separate repositories)
 
-## Getting Started
+Challenges: Sorting algorithms!!
 
-1. `bundle install`
-2. `shotgun -p 3000 -o 0.0.0.0`
-3. Visit `http://localhost:3000/` in your browser
+Feel free to contact me if you have any questions
+
+
+wu.kenny1221@gmail.com
+
+Cheers,
+
+Kenny
